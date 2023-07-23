@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+* {
+    font-family: 'Lugrasimo', cursive;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.bannerBgImage {
+    height: 100vh;
+    background-image: url('../images/bannerimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+}
+
+.bannerTitle {
+    font-size: 4rem;
+}
+
+.bannerDesc {
+    font-size: 2rem;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: palevioletred;
+    border: 2px solid yellow;
+}
+
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover {
+    border: 2px solid yellow;
+}
+
+.card-img-top {
+    height: 50vh;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.linkedin::before {
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 0;
+}
+
+.facebook {
+    color: #39569c;
+}
+
+.facebook::before {
+    background-color: #ffffff;
+    border-radius: 40px;
+    border: 0;
+}
